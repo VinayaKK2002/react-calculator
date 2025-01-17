@@ -18,8 +18,8 @@ function App() {
 
   const calculateString = (calstr) => {
       console.log(calstr);
-      const resultofCalculation = eval(calstr)
-      setInputData(resultofCalculation)
+      const result = eval(calstr)
+      setInputData(result)
       setCalData('')
 
   }
